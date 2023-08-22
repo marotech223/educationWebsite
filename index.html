@@ -4,536 +4,136 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dzin.me</title>
+    <link rel="stylesheet" href="css/style.css" >
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="header-content">
-        <div class="navbar-p1">
-            <ul class="list-styled">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Courses</a></li>
-            </ul>
+        <div class='container'>
+            <div class='img_logo'>
+                <img src='images/logo.png' alt=''/>
+            </div>
             <div class="clear"></div>
         </div>
-        <div class="logo">
-            <img src="images/logo.png" alt="logo">
-        </div>
-        <div class="navbar-p2">
-            <ul class="list-styled">
-                <li><a href="#">Teachers</a></li>
-                <li><a href="#">Reviews</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            
-        </div>
-        <div id="menu-btn"><i class="fa fa-bars"></i></div>
-        </div>
-    </div>
     </header>
-    <main>
-        <div class="main-img">
-            <img src="images/main.png" alt="">
-        </div>
-        <div class="heading">
-            <h1>Online <span>Education</span></h1>
-            <button class="btn">Contact Us</button>
-        </div>
-    </main>
-    <!--counter section-->
-    <div class="counter">
-        <div class="container">
-            <div class="counter-content">
-                <div class="box">
-                    <i class="icon fa fa-graduation-cap"></i>
-                    <div class="box-heading">
-                        <h3>160+</h3>
-                        <span>courses</span>
-                    </div>
+    <div class='main_section'>
+        <div class='container'>
+            <div class='row'>
+                <div class='col-lg-6 col-md-6 col-sm-12 '>
+                    <h4>outfit of the day</h4>
+                    <h1>DZIN.ME</h1>
+                    <h3>عارض أزياء باستخدام الذكاء الاصطناعي</h3>
+                    <p>رؤيتنا المستقبلية هي جعل  شراء الملابس عبر الانترنت أكثر متعة وواقعية باستخدام الذكاء الصنعي والواقع المعزز</p>
                 </div>
-                <div class="box">
-                    <i class="icon fa fa-user"></i>
-                    <div class="box-heading">
-                        <h3>1500+</h3>
-                        <span>students</span>
-                    </div>
-                </div>
-                <div class="box">
-                    <i class="icon fa fa-address-book-o"></i>
-                    <div class="box-heading">
-                        <h3>760+</h3>
-                        <span>Teachers</span>
-                    </div>
-                </div>
-                <div class="box">
-                    <i class="icon fa fa-smile-o"></i>
-                    <div class="box-heading">
-                        <h3>100%</h3>
-                        <span>Satisfactions</span>
+                <div class='col-lg-6 col-md-6 col-sm-12'>
+                    <div class='vedio_sec'>
+                        <video  src='images/video.mp4' autoPlay="true" controls="controls"></video>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--About section-->
-    <section>
-        <div class="container">
-            <div class="About-section">
-                <div class="About-image">
-                    <img src="images/about-img.png" alt="">
-                </div>
-                <div class="About-heading">
-                    <h3>Why Choose Us</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nobis praesentium atque, saepe dolorem blanditiis.</p>
-                    <button class="btn">Contact Us</button>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--courses-->
-    <section>
-        <div class="container">
-            <h2 class="title-section">Our <span class="span-section">Courses</span></h2>
-            <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <div class="item-img">
-                        <img src="images/img1 (1).png" alt="">
-                    </div>
-                    <h3>Engineering</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas saepe quasi ullam quibusdam asperiores provident.</p>
-                </div>
-                <div class="item">
-                    <div class="item-img">
-                        <img src="images/img1 (2).png" alt="">
-                    </div> 
-                    <h3>Web Development</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea illum magnam dolorum labore alias beatae! provident.</p>
-                </div>
-                <div class="item">
-                    <div class="item-img">
-                        <img src="images/img1 (3).png" alt="">
-                    </div>
-                    <h3>Front end Developer</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cumque enim, neque exercitationem distinctio ad!</p>
-                </div>
-                <div class="item">
-                    <div class="item-img">
-                        <img src="images/img1 (4).png" alt="">
-                    </div>
-                    <h3>Backend Developer</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cumque enim, neque exercitationem distinctio ad!</p>
-                </div>
-                <div class="item">
-                    <div class="item-img">
-                        <img src="images/img1 (5).png" alt="">
-                    </div>
-                    <h3>Full stack developer</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cumque enim, neque exercitationem distinctio ad!</p>
-                </div>
-                <div class="item">
-                    <div class="item-img">
-                        <img src="images/img1 (6).png" alt="">
-                    </div>
-                    <h3>Digital Marketing</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cumque enim, neque exercitationem distinctio ad!</p>
-                </div>
-                <div class="item">
-                    <div class="item-img">
-                        <img src="images/img1 (7).png" alt="">
-                    </div>
-                    <h3>Digital Marketing</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cumque enim, neque exercitationem distinctio ad!</p>
-                </div>
-                <div class="item">
-                    <div class="item-img">
-                        <img src="images/img1 (8).png" alt="">
-                    </div>
-                    <h3>Digital Marketing</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cumque enim, neque exercitationem distinctio ad!</p>
-                </div>
-                <div class="item">
-                    <div class="item-img">
-                        <img src="images/img1 (9).png" alt="">
-                    </div>
-                    <h3>Digital Marketing</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cumque enim, neque exercitationem distinctio ad!</p>
-                </div>
-                <div class="item">
-                    <div class="item-img">
-                        <img src="images/image (1).png" alt="">
-                    </div>
-                    <h3>Digital Marketing</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cumque enim, neque exercitationem distinctio ad!</p>
-                </div>
-                <div class="item">
-                    <div class="item-img">
-                        <img src="images/image (2).png" alt="">
-                    </div>
-                    <h3>Digital Marketing</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cumque enim, neque exercitationem distinctio ad!</p>
-                </div>
-                <div class="item">
-                    <div class="item-img">
-                        <img src="images/image (3).png" alt="">
-                    </div>
-                    <h3>Digital Marketing</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cumque enim, neque exercitationem distinctio ad!</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Teachers-->
-    <section class="teachers-section">
-        <div class="container">
-            <h2 class="title-section">Expert<span class="span-section"> Tutors</span></h2>
-            <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <div class="tutor-img">
-                        <img src="images/tuter1.jfif" alt="">
-                        <p>Ktren kae</p>
-                        <div class="tutor-icons">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-whatsapp"></i></a>
+    <div class='services'>
+        <div class='container'>
+                <h3 class='services_text'>ما الذي ستحصل عليه بعد الانضمام إلى DZIN.ME؟</h3>
+            <div class='row'>
+                <div class='col-lg-4 col-md-4 col-sm-12'>
+                    <div class='box'>
+                        <div class='icon'>
+                            <i class="fa fa-money"></i>
                         </div>
+                        <p>توفير 60% من المبالغ المصروفة على عارضي الأزياء وجلسات التصوير</p>
+                    </div>
+                </div>
+                <div class='col-lg-4 col-md-4 col-sm-12'>
+                    <div class='box'>
+                        <div class='icon'>
+                            <i class="fa fa-clock-o"></i>
+                        </div>
+                        <p>توفير الوقت المستغرق في جلسات التصوير</p>
+                    </div>
+                </div>
+                <div class='col-lg-4 col-md-4 col-sm-12'>
+                    <div class='box'>
+                        <div class='icon'>
+                            <i class="fa fa-female"></i>
+                        </div>
+                        <p>امتلاك عارض أزياء وجلسات تصوير لامحدودة خاصة بمتجرك</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="info-section">
+        <div class="info-section-right">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="info-section-first">
+                        <span>من يستطيع الاستفادة من خدمات DZIN.ME ؟</span>
+                        <div class="info-section-para">
+                            <p>متاجر الألبسة التي تستأجر عارضين أزياء</p>
+                            <p>متاجر الألبسة التي تروج للبضائع عبر الانترنت</p>
+                            <p>شركات الألبسة التي تستأجر عارضين أزياء</p>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="image1">
+                        <img src="images/image1.png" alt="image">
                     </div>
                     
                 </div>
-                <div class="item">
-                    <div class="tutor-img">
-                        <img src="images/tuter2.jfif" alt="">
-                        <p>Dalia rafee</p>
-                        <div class="tutor-icons">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-whatsapp"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="tutor-img">
-                        <img src="images/tuter3.jfif" alt="">
-                        <p>smara soe</p>
-                        <div class="tutor-icons">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-whatsapp"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="tutor-img">
-                        <img src="images/tuter4.jfif" alt="">
-                        <p>john Doe</p>
-                        <div class="tutor-icons">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-whatsapp"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="tutor-img">
-                        <img src="images/tuter5.jfif" alt="">
-                        <p>samir Doe</p>
-                        <div class="tutor-icons">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-whatsapp"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="tutor-img">
-                        <img src="images/tuter6.jfif" alt="">
-                        <p>salem badr</p>
-                        <div class="tutor-icons">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-whatsapp"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="tutor-img">
-                        <img src="images/tuter7.jfif" alt="">
-                        <p>john Doe</p>
-                        <div class="tutor-icons">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-whatsapp"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="tutor-img">
-                        <img src="images/tuter1.jfif" alt="">
-                        <p>john Doe</p>
-                        <div class="tutor-icons">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-whatsapp"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="tutor-img">
-                        <img src="images/tuter9.jfif" alt="">
-                        <p>john Doe</p>
-                        <div class="tutor-icons">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-whatsapp"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="tutor-img">
-                        <img src="images/tuter10.jfif" alt="">
-                        <p>john Doe</p>
-                        <div class="tutor-icons">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-whatsapp"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="tutor-img">
-                        <img src="images/tuter11.jfif" alt="">
-                        <p>john Doe</p>
-                        <div class="tutor-icons">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-whatsapp"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="tutor-img">
-                        <img src="images/tuter12.jpg" alt="">
-                        <p>john Doe</p>
-                        <div class="tutor-icons">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-whatsapp"></i></a>
-                        </div>
+            </div>
+        </div>
+        <div class="info-section-left">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="info-section-second">
+                        <span class="info-section-second-title">الغاية من DZIN.ME</span>
+                        <div class="info-section-para">
+                            <p>القدرة على دمج وتطبيق قطع الملابس على صور عارضين
+                            أزياء موجودة مسبقاً دون الحاجة إلى جلسات تصوير
+                            واستئجار عارضين مرة أخرى</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!--Students Reviews-->
-    <section>
-        <div class="container">
-            <h2 class="title-section">student's<span class="span-section"> reviews</span></h2>
-                    <div class="owl-carousel owl-theme">
-                        <div class="item">
-                            <div class="item-content">
-                                <p class="item-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                    Obcaecati aut soluta nemo cumque quibusdam ullam dolorum dolorem aliquid magnam, alias, sed 
-                                    praesentium distinctio corporis ut aliquam rem voluptas veritatis non! Lorem ipsum dolor sit, amet consectetur 
-                                    adipisicing elit. Nesciunt, sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, totam?</p>
-                                    <div class="item-content-img">
-                                        <img  src="images/student1.jpg" alt="">
-                                    </div>
-                                    <h4>john doe</h4>
-                                    <div class="icons">
-                                        <i class="fa fa-star-half-empty"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="item-content">
-                                <p class="item-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                    Obcaecati aut soluta nemo cumque quibusdam ullam dolorum dolorem aliquid magnam, alias, sed 
-                                    praesentium distinctio corporis ut aliquam rem voluptas veritatis non! Lorem ipsum dolor sit, amet consectetur 
-                                    adipisicing elit. Nesciunt, sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, totam?</p>
-                                    <div class="item-content-img">
-                                        <img  src="images/student1.jpg" alt="">
-                                    </div>
-                                    <h4>john doe</h4>
-                                    <div class="icons">
-                                        <i class="fa fa-star-half-empty"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </div>
-                            </div>
-                            </div>
-                        <div class="item">
-                            <div class="item-content">
-                                <p class="item-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                    Obcaecati aut soluta nemo cumque quibusdam ullam dolorum dolorem aliquid magnam, alias, sed 
-                                    praesentium distinctio corporis ut aliquam rem voluptas veritatis non! Lorem ipsum dolor sit, amet consectetur 
-                                    adipisicing elit. Nesciunt, sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, totam?</p>
-                                    <div class="item-content-img">
-                                        <img  src="images/student1.jpg" alt="">
-                                    </div>
-                                    <h4>john doe</h4>
-                                    <div class="icons">
-                                        <i class="fa fa-star-half-empty"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </div>
-                            </div>
-                            </div>
-                        <div class="item">
-                            <div class="item-content">
-                                <p class="item-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                    Obcaecati aut soluta nemo cumque quibusdam ullam dolorum dolorem aliquid magnam, alias, sed 
-                                    praesentium distinctio corporis ut aliquam rem voluptas veritatis non! Lorem ipsum dolor sit, amet consectetur 
-                                    adipisicing elit. Nesciunt, sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, totam?</p>
-                                    <div class="item-content-img">
-                                        <img  src="images/student1.jpg" alt="">
-                                    </div>
-                                    <h4>john doe</h4>
-                                    <div class="icons">
-                                        <i class="fa fa-star-half-empty"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </div>
-                            </div>
-                            </div>
-                        <div class="item">
-                            <div class="item-content">
-                                <p class="item-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                    Obcaecati aut soluta nemo cumque quibusdam ullam dolorum dolorem aliquid magnam, alias, sed 
-                                    praesentium distinctio corporis ut aliquam rem voluptas veritatis non! Lorem ipsum dolor sit, amet consectetur 
-                                    adipisicing elit. Nesciunt, sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, totam?</p>
-                                    <div class="item-content-img">
-                                        <img  src="images/student1.jpg" alt="">
-                                    </div>
-                                    <h4>john doe</h4>
-                                    <div class="icons">
-                                        <i class="fa fa-star-half-empty"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="item-content">
-                                <p class="item-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                    Obcaecati aut soluta nemo cumque quibusdam ullam dolorum dolorem aliquid magnam, alias, sed 
-                                    praesentium distinctio corporis ut aliquam rem voluptas veritatis non! Lorem ipsum dolor sit, amet consectetur 
-                                    adipisicing elit. Nesciunt, sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, totam?</p>
-                                    <div class="item-content-img">
-                                        <img  src="images/student1.jpg" alt="">
-                                    </div>
-                                    <h4>john doe</h4>
-                                    <div class="icons">
-                                        <i class="fa fa-star-half-empty"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="item-content">
-                                <p class="item-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                    Obcaecati aut soluta nemo cumque quibusdam ullam dolorum dolorem aliquid magnam, alias, sed 
-                                    praesentium distinctio corporis ut aliquam rem voluptas veritatis non! Lorem ipsum dolor sit, amet consectetur 
-                                    adipisicing elit. Nesciunt, sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, totam?</p>
-                                    <div class="item-content-img">
-                                        <img  src="images/student1.jpg" alt="">
-                                    </div>
-                                    <h4>john doe</h4>
-                                    <div class="icons">
-                                        <i class="fa fa-star-half-empty"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-        </div>
-    </section>
-    <!--contact us-->
-    <section class="contact-section">
-        <div class="container">
-            <h2 class="title-section">contact <span class="span-section"> us</span></h2>
-            <div class="contact-content">
-                <div class="contact-img">
-                    <img src="images/contact.png" alt="">
-                </div>
-                <div class="contact-form">
-                    <label>your name:</label><br>
-                    <input type="text" placeholder="enter your name please" class="input"><br>
-                    <label>your email:</label><br>
-                    <input type="email" placeholder="enter your email please" class="input"><br>
-                    <label>your number:</label><br>
-                    <input type="number" placeholder="enter your number please" class="input"><br>
-                    <label>Select Course : </label><br>
-                    <select>
-                        <option>Select the Course --</option>
-                        <option value ="html">Html</option>
-                        <option value ="css">Css</option>
-                        <option value ="javascript">Javascript</option>
-                        <option value="bootstrap">Bootstrap</option>
-                        <option value="Sass">Sass</option>
-                        <option value="react">React</option>
-                        <option value="python">python</option>
-                    </select><br>
-                    <label>Select Gender:</label><br>
-                    <input type="radio" name="gender">  <span>male</span>
-                    <input type="radio" name="gender">  <span>female</span>
-                    <br>
-                    <button>send message</button>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="image2">
+                    <img src="images/image3.png" alt="image">
                 </div>
             </div>
+            </div>
+        </div>
     </div>
-    </section>
-    <footer>
+    <div class="register-section">
+        <div class="register-section-back">
         <div class="container">
-            <div class="footer-icons">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
-                <a href="#"><i class="fa fa-whatsapp"></i></a>
-            </div>
-            <span class="line"></span>
-            <h5>copyright &copy; 2023 by <span> Maro Tech </span> All rights reversed</h5>
+                <form>
+                    <h4>اشترك لتصلك نصائح وأفكار لتطوير متجرك:</h4>
+                    <input type="text" name="name" value="الاسم"><br>
+                    <input type="text" name="number" value="الرقم">
+                    <input type="submit" name="submit" value="تسجيل">
+                </form>
         </div>
-    </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.js" integrity="sha512-nO7wgHUoWPYGCNriyGzcFwPSF+bPDOR+NvtOYy2wMcWkrnCNPKBcFEkU80XIN14UVja0Gdnff9EmydyLlOL7mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="js/script.js"></script>
+    </div>
+    </div>
+    <div class="lines">
+        <span class="line_1"></span><br>
+        <span class="line_2"></span>
+    </div>
+    <div class="footer">
+        <div class="icon">
+            <a href=""><img src="images/logo-facebook.png" alt="facebook"></a>
+            <a href="https://wa.me/963997271173"><img src="images/logo-whats.png" alt="whatsapp"></a>
+        </div>
+    </div>
+    <div class="lines sum-lines">
+        <span class="line_1 line_3"></span><br>
+        <span class="line_2 line_4"></span>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
+
